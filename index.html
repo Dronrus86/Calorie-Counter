@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="calorie_counter">
+        <div><h1 class="calorie_counter_title">Cчётчик калорий</h1>
+        </div>
+        <div class="calorie_counter_gender">
+            <div>
+                <button class="gender_women btn-gen active" id="gender_women">Женский</button>
+            </div>
+            <div>
+                <button class="gender_men btn-gen" id="gender_men">Мужской</button>
+            </div>
+        </div>
+
+        <div class="calorie_counter_parameters">
+            <div>
+                <p class="parameters_title">Возраст </p>
+                <label>
+                    <input class="parameters_input age" type="number">
+                </label>
+
+            </div>
+
+            <div>
+                <p class="parameters_title ">Рост </p>
+                <label>
+                    <input class="parameters_input height" type="number">
+                </label>
+
+            </div>
+
+            <div>
+                <p class="parameters_title ">Вес </p>
+                <label>
+                    <input class="parameters_input weight" type="number">
+                </label>
+
+            </div>
+
+
+        </div>
+
+        <div class="calorie_counter_radio">
+            <fieldset>
+                <legend>Физическая активность:</legend>
+                <div>
+
+                    <input class="input_radio" type="radio" id="minimum" value="1.2" name="m">
+                    <label for="minimum">Минимальная</label>
+                    <p class="counter_radio_title">Сидячая работа и нет физических нагрузок</p>
+
+
+                </div>
+                <div>
+
+                    <input class="input_radio" type="radio" id="low" value="1.375" name="m">
+                    <label for="low">Низкая</label>
+                    <p class="counter_radio_title">Редкие, нерегулярные тренировки, активность в быту</p>
+
+                </div>
+
+                <div>
+
+                    <input class="input_radio" type="radio" id="average" value="1.55" name="m">
+                    <label for="average">Средняя</label>
+                    <p class="counter_radio_title">Тренировки 3-5 раз в неделю</p>
+
+                </div>
+
+                <div>
+                    <input class="input_radio" type="radio" id="high" value="1.725" name="m">
+                    <label for="high">Высокая</label>
+                    <p class="counter_radio_title">Тренировки 6-7 раз в неделю</p>
+
+                </div>
+
+                <div>
+                    <input class="input_radio" type="radio" id="very_high" value="1.9" name="m">
+                    <label for="very_high">Очень высокая</label>
+                    <p class="counter_radio_title">Больше 6 тренировок в неделю и физические работы</p>
+
+
+                </div>
+            </fieldset>
+        </div>
+
+
+        <div class="calorie_counter_button">
+            <div>
+                <button class="button_calculate btn  activ_btn_disabled activ" disabled id="btn">Рассчитать</button>
+            </div>
+            <div>
+                <button class="button_clear btn">Очистить</button>
+            </div>
+        </div>
+
+
+        <div class="calorie_counter_result">
+
+            <h3>Ваша норма калорий:</h3>
+            <div class="calorie_counter_result_text">
+                <div class="result_container">
+                   <p class="result_eight_content  result"></p>
+                <p class="result_text">поддержание веса</p>
+                </div>
+
+                <div class="result_container">
+                    <p class="result_weight_loss result"></p>
+                    <p class="result_text">снижение веса</p>
+                </div>
+
+
+                <div class="result_container">
+                    <p class="result_weight_gain result"></p>
+                    <p class="result_text">набор веса</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="style.js"></script>
+</body>
+</html>

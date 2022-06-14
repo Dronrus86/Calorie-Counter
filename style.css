@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.wrapper{
+    /*width: 1280px;*/
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.calorie_counter{
+
+    width: 330px;
+    height: auto;
+    background-color: #CCDDFF;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.calorie_counter_title{
+    font-size: 30px;
+   color: chocolate;
+}
+
+.calorie_counter_gender{
+    display: flex;
+
+}
+.active{
+    background-color: chocolate;
+    color: white;
+
+}
+
+.btn-gen{
+    width: 165px;
+    border: solid  1px chocolate;
+
+    height: 40px;
+
+}
+
+
+
+button{
+    background-color: white;
+}
+
+.calorie_counter_parameters{
+width: 100%;
+    padding-top: 20px;
+    display: flex;
+     justify-content: space-between;
+
+
+}
+.parameters_input{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+input:hover{
+    color: chocolate;
+}
+
+label:hover{
+    color: chocolate;
+}
+legend{
+    font-weight: bold;
+    font-size: 25px;
+    color: chocolate;
+}
+.calorie_counter_radio{
+    padding-top: 40px;
+}
+
+.parameters_title{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.counter_radio_title{
+    font-size: 12px;
+    color: darkgrey;
+    margin-top: 0;
+    padding-left: 25px;
+}
+.calorie_counter_button{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.btn{
+    background-color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+/*.activ{*/
+/*    background-color: chocolate;*/
+/*    color: white;*/
+/*}*/
+
+.activ_btn_disabled{
+    background-color: lemonchiffon;
+    color: black;
+}
+
+h3{
+color: chocolate;
+}
+.calorie_counter_result{
+    display: none;
+}
+.result_container{
+    width: 84px;
+}
+.result{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+
+}
+.calorie_counter_result_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.result_text{
+    font-size: 12px;
+    color: darkgrey;
+    margin-top: 0;
+
+}
+
+
